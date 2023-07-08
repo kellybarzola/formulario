@@ -1,0 +1,184 @@
+[
+    {
+        "Marca":"Xiaomi",
+        "Modelo":"Redmi Note 11S 5G",
+        "Caracteristica":"Almacenamiento 128 GB  Memoria RAM 4 GB, Batería 5000 mAh",
+        "precio":"s/1,900.00",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOSCTSyYjVD7aMyQ2QiEJi76qEOE6IpOwwdQ&usqp=CAU"
+    },
+    {
+        "Marca":"Xiaomi",
+        "Modelo":"Redmi Note 11",
+        "Caracteristica":"Almacenamiento 128 GB Memoria RAM 4 GB, Batería 5000 mAh",
+        "precio":"S/1,784.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/XIAOMI%2012%20256GB%205G%20GRIS%20POSTERIOR_276x549.jpg"
+    },
+    {
+        "Marca":"Xiaomi",
+        "Modelo":"Samsung Z Flip 4",
+        "Caracteristica":"Almacenamiento 32 GB  Memoria RAM 2 GB, Batería 5000 mAh",
+        "precio":"S/3,015.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/Galaxy-Z-Flip-4-Grafito-frontal_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Xiaomi",
+        "Modelo":"Redmi Note 12s Verde Perla",
+        "Caracteristica":"Almacenamiento 256GB  Memoria RAM 8 GB, Batería 4300 mAh",
+        "precio":"2,200.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/XIAOMI_REDMI_NOTE_12S_256GB_GREEN_LATERAL4_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Xiami",
+        "Modelo":"Redmi 10C Gris",
+        "Caracteristica":"Almacenamiento 64GB  Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"S/405.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/XIAOMI%20REDMI%2010C%2064GB%20GRIS%20POSTERIOR_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Xiaomi",
+        "Modelo":"XIAOMI 12  5G Azul",
+        "Caracteristica":"Almacenamiento 256GB Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"S/2,205.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/XIAOMI%2012%20256GB%205G%20AZUL%20POSTERIOR_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung Galaxi A54",
+        "Caracteristica":"Almacenamiento 128 GB  Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"s/1.900",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_A04_NEGRO_POSTERIOR_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung A04e Negro",
+        "Caracteristica":"Almacenamiento 32GB  Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"s/1.900",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_A54_5G_128GB_AWESOME_VIOLET_POSTERIOR_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung S23 256GB Crema",
+        "Caracteristica":"Memoria RAM 8 GB Batería 5000 mAh",
+        "precio":"S/1,784.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_S23_CREMA_PRINCIPAL_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung S23 Ultra 512GB ",
+        "Caracteristica":"Almacenamiento 128 GB  Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"S/3,234.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_S23_ULTRA_CREAM_FRONTAL_276x549.jpg"
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung S23 Ultra Lavanda",
+        "Caracteristica":"Almacenamiento 256GB Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"S/4,765.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_S23_ULTRA_LAVANDER_FRONTAL_276x549.jpg"
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung S22 Phantom Black",
+        "Caracteristica":"Almacenamiento 128GB 5G Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"S/4,765.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_S22_5G_PHANTON_BLACK_POSTERIOR_276x549.jpg"
+    },
+    {
+        "Marca":"Xiaomi",
+        "Modelo":"Redmi Note 11S 5G",
+        "Caracteristica":"Almacenamiento 128 GB  Memoria RAM 4 GB, Batería 5000 mAh",
+        "precio":"s/1,900.00",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOSCTSyYjVD7aMyQ2QiEJi76qEOE6IpOwwdQ&usqp=CAU"
+    },
+    {
+        "Marca":"Xiaomi",
+        "Modelo":"Redmi Note 11",
+        "Caracteristica":"Almacenamiento 128 GB Memoria RAM 4 GB, Batería 5000 mAh",
+        "precio":"S/1,784.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/XIAOMI%2012%20256GB%205G%20GRIS%20POSTERIOR_276x549.jpg"
+    },
+    {
+        "Marca":"Xiaomi",
+        "Modelo":"Samsung Z Flip 4",
+        "Caracteristica":"Almacenamiento 32 GB  Memoria RAM 2 GB, Batería 5000 mAh",
+        "precio":"S/3,015.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/Galaxy-Z-Flip-4-Grafito-frontal_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Xiaomi",
+        "Modelo":"Redmi Note 12s Verde Perla",
+        "Caracteristica":"Almacenamiento 256GB  Memoria RAM 8 GB, Batería 4300 mAh",
+        "precio":"2,200.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/XIAOMI_REDMI_NOTE_12S_256GB_GREEN_LATERAL4_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Xiami",
+        "Modelo":"Redmi 10C Gris",
+        "Caracteristica":"Almacenamiento 64GB  Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"S/405.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/XIAOMI%20REDMI%2010C%2064GB%20GRIS%20POSTERIOR_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Xiaomi",
+        "Modelo":"XIAOMI 12  5G Azul",
+        "Caracteristica":"Almacenamiento 256GB Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"S/2,205.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/XIAOMI%2012%20256GB%205G%20AZUL%20POSTERIOR_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung Galaxi A54",
+        "Caracteristica":"Almacenamiento 128 GB  Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"s/1.900",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_A04_NEGRO_POSTERIOR_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung A04e Negro",
+        "Caracteristica":"Almacenamiento 32GB  Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"s/1.900",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_A54_5G_128GB_AWESOME_VIOLET_POSTERIOR_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung S23 256GB Crema",
+        "Caracteristica":"Memoria RAM 8 GB Batería 5000 mAh",
+        "precio":"S/1,784.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_S23_CREMA_PRINCIPAL_276x549.jpg"
+    
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung S23 Ultra 512GB",
+        "Caracteristica":"Almacenamiento 128 GB  Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"S/3,234.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_S23_ULTRA_CREAM_FRONTAL_276x549.jpg"
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung S23 Ultra Lavanda",
+        "Caracteristica":"Almacenamiento 256GB Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"S/4,765.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_S23_ULTRA_LAVANDER_FRONTAL_276x549.jpg"
+    },
+    {
+        "Marca":"Samsung",
+        "Modelo":"Samsung S22 Phantom Black",
+        "Caracteristica":"Almacenamiento 128GB 5G Memoria RAM 8 GB, Batería 5000 mAh",
+        "precio":"S/4,765.00",
+        "img":"https://miportal.entel.pe/static/062020231151184/images/SAMSUNG_GALAXY_S22_5G_PHANTON_BLACK_POSTERIOR_276x549.jpg"
+    }
+]

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" class="rel" />
+    <title>FORMULARIO</title>
+  </head>
+  <body>
+    <form action="" id="formulario" class="mostrar" class="con">
+      <h3>Formulario de Autenticacion</h3>
+      <br />
+      <input type="email" placeholder="ingresa tu email" id="email" />
+      <br /><br />
+      <input type="password" placeholder="ingresa tu password" id="password" />
+      <br /><br />
+      <input type="button" value="Crear cuenta" id="btnRegistrar" />
+      <input type="button" value="Iniciar Sesion" id="btnIniciarSesion" />
+      <br />
+      <img class="S" src="img/fb.webp" alt="fb" width="40" height="40" id="btnFB" />
+      <img class="S" src="img/google-g-2015-logo-png-transparent.png" alt="google" width="40" height="40" id="btndegooglge"/>
+    </form>
+
+    <div class="container ocultar img" id="contenidoDeLaWeb">
+      <SEction id="M">
+      <h2>BIENVENID@ AL CONTENIDO DE MI WEB</h2>
+      <br>
+      <img class="carro" src="img/carrito.png" alt="carrito" width="50" height="50">
+      <br />
+      <img class="img" src="img/fondo.jpg" alt="fondo" />
+       
+      <div class="resultado" id="resultado"></div>
+      <br>
+
+      <section class="espa">
+      <div id="comentarios">
+        <p>COMENTARIOS </p>
+        <input type="text" placeholder="escribe el titulo" id="txttitulo" class="comen">
+        <br>
+        <input type="text" placeholder="escribe la descripcion" id="txtdescrpcion" class="comen">
+        <br>
+        <input type="button" value="publicar" id="btnpublicar" class="comen">
+      </div>
+      </section>
+
+      <section >
+      <p class="inter">REDES SOCIALES</p>
+      <br>
+      <ol class="inter">
+        <p><img src="img/fb.webp" alt="fb" width="30" height="30" > kelly barzola</p>
+        <p><img src="img/ig.webp" alt="ig" width="30" height="30" > k3lly_2005</p>
+        <p><img src="img/wt.webp" alt="wats" width="45" height="45"> 902 323 896</p>
+      </ol>
+      <br>
+      <input class="cerrar" type="button" value="Cerrar Sesion" id="btnCerarSesion" />
+    </section>
+    </SEction>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+    <script src="main.js"></script>
+
+    <script type="module">
+      const firebaseConfig = {
+        apiKey: "AIzaSyBDgjevZFjYxrQmrZXz9bqlL5Liwa_zGc4",
+        authDomain: "registroweb-5aa0d.firebaseapp.com",
+        projectId: "registroweb-5aa0d",
+        storageBucket: "registroweb-5aa0d.appspot.com",
+        messagingSenderId: "740609446323",
+        appId: "1:740609446323:web:5cb4a5db270be2d15cbbc6",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+      //const app = initializeApp(firebaseConfig);
+      //llamando al dom o html
+      const btnRegistrar = document.getElementById("btnRegistrar");
+      const bttnIniciarSesion = document.getElementById("btnIniciarSesion");
+      const formulario = document.getElementById("formulario");
+      const contenidoDeLaWeb = document.getElementById("contenidoDeLaWeb");
+      const btnGoogle = document.getElementById("btndegooglge");
+      const btnFB = document.getElementById("btnFB");
+
+      //funcion registrar
+      btnRegistrar.addEventListener("click", () => {
+        let email = document.getElementById("email").value;
+        let password = document.getElementById("password").value;
+        console.log(email);
+        console.log(password);
+        firebase
+          .auth()
+          .createUserWithEmailAndPassword(email, password)
+          .then((userCredential) => {
+            var user = userCredential.user;
+            console.log("Registrado correctamente");
+            formulario.classList.replace("mostrar", "ocultar");
+            contenidoDeLaWeb.classList.replace("ocultar", "mostrar");
+          })
+          .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            alert(errorMessage);
+          });
+      });
+      //boton inicar secion
+      btnIniciarSesion.addEventListener("click", () => {
+        let email = document.getElementById("email").value;
+        let password = document.getElementById("password").value;
+        firebase
+          .auth()
+          .signInWithEmailAndPassword(email, password)
+          .then((userCredential) => {
+            var user = userCredential.user;
+            console.log("Inicio de sesion correcto");
+            formulario.classList.replace("mostrar", "ocultar");
+            contenidoDeLaWeb.classList.replace("ocultar", "mostrar");
+          })
+          .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            alert(errorMessage);
+          });
+      });
+      //boton cerar sesion
+      btnCerarSesion.addEventListener("click", () => {
+        let email = document.getElementById("email").value;
+        let password = document.getElementById("password").value;
+        firebase
+          .auth()
+          .signInWithEmailAndPassword(email, password)
+          .then((userCredential) => {
+            var user = userCredential.user;
+            console.log("Cierre de sesion correcto");
+            contenidoDeLaWeb.classList.replace("mostrar", "ocultar");
+            formulario.classList.replace("ocultar", "mostrar");
+            document.getElementById("email").value = "";
+            document.getElementById("password").value = "";
+          })
+          .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            alert(errorMessage);
+          });
+      });
+      //funcion google
+      btnGoogle.addEventListener("click", () => {
+        var provider = new firebase.auth.GoogleAuthProvider();
+        firebase
+          .auth()
+          .signInWithPopup(provider)
+          .then((result) => {
+            var credential = result.credential;
+            console.log("login con Google correcto");
+          })
+          .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            alert(errorMessage);
+          });
+      });
+      //funcion de faceboock
+      btnFB.addEventListener("click", () => {
+        var provider = new firebase.auth.FacebookAuthProvider();
+        firebase
+          .auth()
+          .signInWithPopup(provider)
+          .then((result) => {
+            var credential = result.credential;
+            console.log("login con Facebook correcto");
+          })
+          .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            alert(errorMessage);
+          });
+      });
+      
+    </script>
+
+  </body>
+</html>
